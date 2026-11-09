@@ -2,7 +2,7 @@
 
 A responsive academic website for Fall 2027 Ph.D. outreach, with sakura and coral pink accents. Research leads the homepage and has five detailed project pages. Compact personal-photo galleries add context on Life and Community without displacing the academic work.
 
-The Python static-site generator produces 13 HTML pages from structured content, CSS, and JavaScript. This is a local build prepared for GitHub Pages; it has not been published.
+The Python static-site generator produces 13 HTML pages from structured content, CSS, and JavaScript. The site is published at https://seanwan514.github.io/Weilin_Sean_Wan/.
 
 ## Requirements and local preview
 
@@ -77,14 +77,17 @@ The downloadable PDF remains the original supplied file. It has not been rewritt
 
 Research workshop affiliations and manuscripts in preparation are explicit. No acceptance dates were inferred. The SVG covers explain the research concepts; they are not empirical figures or reported results. Their captions distinguish illustrative assembly, token, matrix, and portfolio patterns from measured evidence.
 
-## Publish with GitHub Pages
+## GitHub Pages deployment
 
-The configured repository is <https://github.com/SeanWan514/Weilin_Sean_Wan>.
+Live website: <https://seanwan514.github.io/Weilin_Sean_Wan/>.
+Repository: <https://github.com/SeanWan514/Weilin_Sean_Wan>.
 
-1. Add the source and generated `docs/` directory to that repository, excluding `private/` and other local-only files.
-2. In Settings → Pages, select **Deploy from a branch**, then **main** and **/docs**.
-3. The expected project URL is <https://seanwan514.github.io/Weilin_Sean_Wan/>.
+- `main` contains the source files and validated `docs/` output.
+- `gh-pages` contains only the generated website at its root and is the active publishing branch.
+- GitHub builds and deploys updates to `gh-pages` automatically. The `.nojekyll` file keeps the generated HTML intact.
 
-The configured public URL is a deployment target, not confirmation that deployment has occurred. Internal navigation and assets use relative paths, allowing the build to work under the project path or at a user-site root.
+For an update, edit the source, run `python3 scripts/build.py`, review the local preview, and commit the source and `docs/` changes to `main`. Then sync the **contents** of `docs/` to the root of `gh-pages` and push that branch, preserving its history. A push to `main` alone does not update the published website. Keep `private/`, original photos, local caches, and working notes out of both branches.
 
-If the repository becomes `seanwan514.github.io`, change `public_url` in `content/site.json` to `https://seanwan514.github.io`, rebuild, and publish. That setting controls canonical and social-preview URLs. GitHub publication and repository renaming have not been performed by this local build.
+Check the repository’s **Actions** tab for the `pages build and deployment` result, then verify the live site. The initial publication on 9 November 2026 passed checks of all 13 pages and 43 public assets, including an exact-byte comparison of the downloadable CV with the supplied PDF.
+
+Internal navigation and assets use relative paths, so the build works under the repository path. If the repository is later renamed or a custom domain is added, update `public_url` in `content/site.json`, rebuild, and configure the corresponding Pages settings. That setting controls canonical and social-preview URLs.
