@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio algorithm selection — comparing representations under asset-family shift</title>
+  <desc id="desc">Three alternative representation sources—LLM-generated features, pretrained time-series embeddings, and portfolio-trained Transformer representations—are compared as inputs to random-forest or multilayer-perceptron selectors. Distinct portfolio families on the right represent held-out-family evaluation. The diagram does not imply feature fusion or show return measurements.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#85828b" stroke-width="1.6"/></marker></defs>
+  <rect width="720" height="460" rx="20" fill="#fcf9f7"/>
+  <text x="172" y="49" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#303039">Alternative inputs</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#303039">
+    <rect x="34" y="79" width="258" height="77" rx="13" fill="#fae7ed"/>
+    <path d="M72 99 57 117 72 135M92 99 107 117 92 135M85 100 77 135" fill="none" stroke="#a63d5d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="125">LLM features</text>
+    <rect x="34" y="187" width="258" height="77" rx="13" fill="#e7efec"/>
+    <path d="M53 228H63L72 211 83 243 94 216 104 226H112" fill="none" stroke="#43797c" stroke-width="3" stroke-linejoin="round"/>
+    <text x="118" y="233">Time-series</text>
+    <rect x="34" y="295" width="258" height="77" rx="13" fill="#eeebf1"/>
+    <g stroke="#81748e" stroke-width="2" fill="#fff"><rect x="55" y="314" width="34" height="31" rx="3"/><rect x="65" y="324" width="34" height="31" rx="3"/><rect x="75" y="334" width="34" height="31" rx="3"/></g>
+    <text x="118" y="341">Transformer</text>
+  </g>
+  <g fill="none" stroke="#b8abb1" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)">
+    <path d="M297 118Q349 118 373 177"/><path d="M297 226H348"/><path d="M297 333Q350 333 373 275"/>
+  </g>
+  <circle cx="413" cy="226" r="60" fill="#fff" stroke="#a63d5d" stroke-width="3"/>
+  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" fill="#80334d"><text x="413" y="219" font-size="28">RF/MLP</text><text x="413" y="250" font-size="28">selector</text></g>
+  <path d="M481 226H524" fill="none" stroke="#85828b" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(568 133)">
+    <rect x="-16" y="-13" width="88" height="94" rx="8" fill="#e7efec" transform="rotate(-10)"/>
+    <rect x="0" y="0" width="88" height="94" rx="8" fill="#fff" stroke="#82a7a1" stroke-width="2.5"/>
+    <circle cx="44" cy="47" r="25" fill="#d5e4df"/>
+    <path d="M44 22V47L64 62A25 25 0 0 0 44 22Z" fill="#548c83"/>
+  </g>
+  <g transform="translate(568 259)">
+    <rect x="-16" y="-13" width="88" height="94" rx="8" fill="#f4dce4" transform="rotate(10)"/>
+    <rect x="0" y="0" width="88" height="94" rx="8" fill="#fff" stroke="#bc8b9d" stroke-width="2.5"/>
+    <circle cx="44" cy="47" r="25" fill="#efd1dd"/>
+    <path d="M44 22V47L24 62A25 25 0 0 1 44 22Z" fill="#b55b7b"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" text-anchor="middle" fill="#615661"><text x="602" y="73">Asset-family</text><text x="602" y="101">shift</text></g>
+  <path d="M40 400H680" stroke="#e5dcda" stroke-width="2"/>
+  <text x="360" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#615661">Compare representations · evaluate transfer</text>
+</svg>

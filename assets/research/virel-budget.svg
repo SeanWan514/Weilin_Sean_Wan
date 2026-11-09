@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">ViRel-Budget — a reliability-constrained choice of token budget</title>
+  <desc id="desc">A conceptual token grid feeds a calibrated risk policy. The policy chooses either a pruned token budget or dense fallback for a single vision-language-model call. Highlighted grid cells are illustrative tokens, not measured results or a prescribed budget.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#727681" stroke-width="1.6"/></marker>
+    <pattern id="input" width="33" height="33" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="27" height="27" rx="5" fill="#e2e8e7"/></pattern>
+    <pattern id="dense" width="17.3333" height="17.3333" patternUnits="userSpaceOnUse"><rect x="1.5" y="1.5" width="14.3333" height="14.3333" rx="2.5" fill="#6f9294"/></pattern>
+    <pattern id="ghost" width="17.3333" height="17.3333" patternUnits="userSpaceOnUse"><rect x="1.5" y="1.5" width="14.3333" height="14.3333" rx="2.5" fill="#fff" stroke="#dfd5d8" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="720" height="460" rx="20" fill="#fcf9f7"/>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#303039" font-size="28">
+    <text x="138" y="83" text-anchor="middle">Image tokens</text>
+    <text x="598" y="45" text-anchor="middle">Pruned budget</text>
+    <text x="598" y="259" text-anchor="middle">Dense fallback</text>
+  </g>
+  <rect x="35" y="120" width="209" height="209" rx="14" fill="#fff" stroke="#d7dfdd" stroke-width="2"/>
+  <g transform="translate(40 125)">
+    <rect width="198" height="198" fill="url(#input)"/>
+    <g fill="#a9c3c0"><rect x="35" y="68" width="27" height="27" rx="5"/><rect x="68" y="35" width="27" height="27" rx="5"/><rect x="101" y="35" width="27" height="27" rx="5"/><rect x="134" y="68" width="27" height="27" rx="5"/><rect x="35" y="101" width="27" height="27" rx="5"/><rect x="68" y="101" width="27" height="27" rx="5"/><rect x="101" y="101" width="27" height="27" rx="5"/><rect x="134" y="101" width="27" height="27" rx="5"/></g>
+  </g>
+  <path d="M254 224H300" fill="none" stroke="#727681" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M364 142 422 164V219C422 251 395 275 364 288 333 275 306 251 306 219V164Z" fill="#f4dce4" stroke="#a63d5d" stroke-width="3"/>
+  <path d="M341 211 359 229 390 192" fill="none" stroke="#a63d5d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#80334d"><text x="364" y="321">Calibrated</text><text x="364" y="352">policy</text></g>
+  <path d="M430 211H465V127H513 M465 211V338H513" fill="none" stroke="#727681" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M493 127H513" fill="none" stroke="#727681" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(534 73)">
+    <rect x="-10" y="-10" width="124" height="124" rx="12" fill="#fff" stroke="#e5c4ce" stroke-width="2"/>
+    <rect width="104" height="104" fill="url(#ghost)"/>
+    <g fill="#bb607c"><rect x="36.1667" y="18.8333" width="14.3333" height="14.3333" rx="2.5"/><rect x="53.5" y="18.8333" width="14.3333" height="14.3333" rx="2.5"/><rect x="18.8333" y="36.1667" width="14.3333" height="14.3333" rx="2.5"/><rect x="70.8333" y="36.1667" width="14.3333" height="14.3333" rx="2.5"/><rect x="18.8333" y="53.5" width="14.3333" height="14.3333" rx="2.5"/><rect x="36.1667" y="53.5" width="14.3333" height="14.3333" rx="2.5"/><rect x="53.5" y="53.5" width="14.3333" height="14.3333" rx="2.5"/><rect x="70.8333" y="53.5" width="14.3333" height="14.3333" rx="2.5"/></g>
+  </g>
+  <text x="586" y="219" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#8c7982">OR</text>
+  <g transform="translate(534 286)"><rect x="-10" y="-10" width="124" height="124" rx="12" fill="#fff" stroke="#c6d9d7" stroke-width="2"/><rect width="104" height="104" fill="url(#dense)"/></g>
+  <path d="M35 407H685" stroke="#e8dddf" stroke-width="2"/>
+  <text x="360" y="440" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#615661">One choice · one VLM call</text>
+</svg>

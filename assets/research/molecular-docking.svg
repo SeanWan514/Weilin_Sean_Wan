@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Molecular docking — choosing which outcome to acquire next</title>
+  <desc id="desc">A conceptual sparse matrix pairs molecular complexes with docking algorithms. Teal cells denote observed outcomes, outlined cells unobserved outcomes, and one rose cell a prospective query. A clock emphasizes runtime-aware acquisition. The pattern is illustrative and contains no measured values or result claims.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#a63d5d" stroke-width="1.6"/></marker>
+    <pattern id="cells" width="48" height="48" patternUnits="userSpaceOnUse"><rect x="4" y="4" width="39" height="39" rx="6" fill="#fff" stroke="#d9dfdd" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="720" height="460" rx="20" fill="#fcf9f7"/>
+  <text x="256" y="55" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#303039">Docking algorithms</text>
+  <text x="40" y="230" transform="rotate(-90 40 230)" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#615661">Complexes</text>
+  <path d="M111 76H401M86 100V335" fill="none" stroke="#b9c7c3" stroke-width="2"/>
+  <g transform="translate(111 94)">
+    <rect width="288" height="240" fill="url(#cells)"/>
+    <g fill="#65938c">
+      <rect x="4" y="4" width="39" height="39" rx="6"/><rect x="148" y="4" width="39" height="39" rx="6"/>
+      <rect x="52" y="52" width="39" height="39" rx="6"/><rect x="244" y="52" width="39" height="39" rx="6"/>
+      <rect x="100" y="100" width="39" height="39" rx="6"/><rect x="196" y="100" width="39" height="39" rx="6"/>
+      <rect x="4" y="148" width="39" height="39" rx="6"/><rect x="196" y="148" width="39" height="39" rx="6"/>
+      <rect x="52" y="196" width="39" height="39" rx="6"/><rect x="148" y="196" width="39" height="39" rx="6"/>
+    </g>
+    <rect x="244" y="148" width="39" height="39" rx="6" fill="#f2c6d3" stroke="#a63d5d" stroke-width="3"/>
+    <path d="M255 167H272M263 159V176" stroke="#a63d5d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(552 150)">
+    <circle r="52" fill="#f3e5e9"/>
+    <circle r="36" fill="#fff" stroke="#a63d5d" stroke-width="3"/>
+    <path d="M0-34V-45M-9-45H9M25-27 33-35" fill="none" stroke="#a63d5d" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0-22V0L17 12" fill="none" stroke="#a63d5d" stroke-width="4" stroke-linecap="round"/>
+    <circle r="4" fill="#a63d5d"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" text-anchor="middle" fill="#80334d"><text x="552" y="234">Runtime-aware</text><text x="552" y="263">next query</text></g>
+  <path d="M493 282Q449 306 407 271" fill="none" stroke="#a63d5d" stroke-width="3" marker-end="url(#arrow)"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#615661">
+    <rect x="82" y="359" width="20" height="20" rx="4" fill="#65938c"/><text x="113" y="377">Observed</text>
+    <rect x="278" y="359" width="20" height="20" rx="4" fill="#fff" stroke="#c9d2ce" stroke-width="2"/><text x="309" y="377">Unobserved</text>
+    <rect x="504" y="359" width="20" height="20" rx="4" fill="#f2c6d3" stroke="#a63d5d" stroke-width="2"/><text x="535" y="377">Query</text>
+  </g>
+  <path d="M40 401H680" stroke="#e5dcda" stroke-width="2"/>
+  <text x="360" y="438" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#43797c">Acquire → complete → train selector</text>
+</svg>
