@@ -1,0 +1,201 @@
+[
+  {
+    "id": "statedelta",
+    "title": "StateDelta: State-Transition Grounded Instruction Generation from Procedural Image Sequences",
+    "shortTitle": "StateDelta",
+    "theme": "Grounded multimodal learning and reasoning",
+    "dates": "June 2026–Present",
+    "advisors": [
+      "Kaizhu Huang"
+    ],
+    "authors": [
+      "Sean Wan",
+      "Kaizhu Huang"
+    ],
+    "status": "Manuscript in preparation",
+    "venue": "Planned: ACL Rolling Review, January 2027 cycle, targeting ACL 2027",
+    "summary": "My undergraduate Signature Work at Duke Kunshan University explores grounded instruction generation from procedural image sequences. I am developing an assembly dataset and a retrieval-augmented vision-language framework that connect instructions to specific components, attachment locations, and supported operations.",
+    "question": "How can structured visual evidence and retrieval support instruction generation across furniture designs and categories while grounding each instruction in the assembly evidence?",
+    "contributions": [
+      "Developing a grounded assembly dataset that links manual diagrams to detailed instructions, component annotations, and source evidence through model-assisted labeling and comprehensive human review.",
+      "Designing a pipeline from structured visual evidence through semantic and part-based retrieval to image-conditioned instruction generation.",
+      "Preparing reusable supervision for retrieval evaluation and VLM fine-tuning, with subsequent fine-tuning and RAG integration aimed at transferring knowledge from the curated assembly corpus."
+    ],
+    "findings": [],
+    "limitations": [
+      "Dataset development and framework design are ongoing. VLM fine-tuning, RAG integration, and cross-design transfer are intended stages of the work.",
+      "The manuscript is in preparation for a planned January 2027 ACL Rolling Review submission."
+    ],
+    "links": [],
+    "citation": "Sean Wan and Kaizhu Huang. StateDelta: State-Transition Grounded Instruction Generation from Procedural Image Sequences. Manuscript in preparation; planned submission to ACL Rolling Review, January 2027 cycle."
+  },
+  {
+    "id": "virel-budget",
+    "title": "ViRel-Budget: Reliability-Constrained Visual-Token Budgeting for Green Vision-Language Inference",
+    "shortTitle": "ViRel-Budget",
+    "theme": "Reliable and efficient vision-language inference",
+    "dates": "May 2026–August 2026",
+    "advisors": [
+      "Luyao Zhang"
+    ],
+    "authors": [
+      "Sean Wan",
+      "Shilin Ou",
+      "Luyao Zhang"
+    ],
+    "status": "Accepted for publication",
+    "venue": "GreenMM workshop at ACM Multimedia 2026",
+    "summary": "I developed a reliability-constrained pipeline that chooses a visual-token pruning budget or a dense fallback before a single VLM call, without fine-tuning the backbone. The work evaluates energy savings alongside a calibrated unsafe-acceptance limit.",
+    "question": "Can a VLM use fewer visual tokens while preserving dense-model response behavior under a calibrated reliability constraint?",
+    "contributions": [
+      "Constructed safety labels measuring preservation of dense-model responses on original images and eligible visual interventions.",
+      "Trained budget-specific risk predictors using pre-inference features and calibrated a policy that selects a pruning budget or dense fallback for one VLM call.",
+      "Benchmarked on POPE, MMStar, and VisualCounterFact using group-isolated prospective evaluation, independent replication draws, and paired GPU telemetry.",
+      "First-authored the paper accepted for publication at the ACM Multimedia 2026 GreenMM workshop."
+    ],
+    "findings": [
+      "The SCOPE-based controller achieved replicated energy savings of 11.87% for LLaVA-1.5-7B and 10.62% for LLaVA-1.5-13B relative to matched dense inference, while meeting the calibrated unsafe-acceptance limit."
+    ],
+    "limitations": [
+      "The reported savings refer to the SCOPE-based controller, matched dense LLaVA-1.5-7B and -13B inference, and the evaluated benchmark and replication settings.",
+      "Reliability is defined through preservation of dense-model responses on original images and eligible visual interventions."
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3840750.3841450"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/SeanWan514/ViRel-Budget"
+      }
+    ],
+    "citation": "Sean Wan, Shilin Ou, and Luyao Zhang. ViRel-Budget: Reliability-Constrained Visual-Token Budgeting for Green Vision-Language Inference. GreenMM workshop at ACM Multimedia 2026. Accepted for publication."
+  },
+  {
+    "id": "stableeval",
+    "title": "StableEval Arena: A Cost-Aware Agentic Benchmark for Stablecoin Price Stability Prediction",
+    "shortTitle": "StableEval Arena",
+    "theme": "Reliable evaluation of agentic AI systems",
+    "dates": "April 2026–July 2026",
+    "advisors": [
+      "Luyao Zhang",
+      "Dongping Liu"
+    ],
+    "authors": [
+      "Sean Wan",
+      "Dongping Liu",
+      "Luyao Zhang"
+    ],
+    "status": "Accepted · Selected oral presentation",
+    "venue": "KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI",
+    "summary": "I built an environment-grounded historical-replay benchmark for agentic stablecoin risk assessment. It combines leakage-safe evidence windows and hidden future horizons with structured predictions, deterministic labels, calibration, and reproducible cost and latency logging.",
+    "question": "How can we evaluate agentic stablecoin risk assessment while accounting for evidence leakage, calibration, rare-event failures, and computational cost?",
+    "contributions": [
+      "Built the historical-replay benchmark with leakage-safe evidence windows, hidden future horizons, structured predictions, and deterministic labeling.",
+      "Integrated calibration and reproducible cost and latency logging into the evaluation.",
+      "Benchmarked six agents against always-stable, historical-persistence, threshold-rule, and logistic-regression baselines in stress-enriched and natural-distribution settings.",
+      "First-authored the paper accepted with a selected oral presentation at the KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI."
+    ],
+    "findings": [
+      "Calibrated agents surpassed historical persistence on aggregate performance in the stress-enriched evaluation.",
+      "The evaluation revealed substantial rare-event failures that accuracy alone overlooked."
+    ],
+    "limitations": [
+      "The reported aggregate improvement over historical persistence applies to the enriched evaluation; it is not stated as an improvement across every evaluation setting.",
+      "Substantial rare-event failures remained despite the aggregate performance gains."
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/11_StableEval_Arena_A_Cost_Awa.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/SeanWan514/StableEval-Arena"
+      }
+    ],
+    "citation": "Sean Wan, Dongping Liu, and Luyao Zhang. StableEval Arena: A Cost-Aware Agentic Benchmark for Stablecoin Price Stability Prediction. KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI. Selected oral presentation."
+  },
+  {
+    "id": "molecular-docking",
+    "title": "Active Learning for Molecular-Docking Algorithm Selection under Heterogeneous Runtime",
+    "shortTitle": "Molecular-Docking Algorithm Selection",
+    "theme": "Cost-efficient learning for algorithm selection",
+    "dates": "March 2026–August 2026",
+    "advisors": [
+      "Mustafa Mısır"
+    ],
+    "authors": [
+      "Sean Wan",
+      "Jiabao Brad Wang",
+      "Mustafa Mısır"
+    ],
+    "status": "Accepted",
+    "venue": "NeurIPS 2026 Workshop on AI for Drug Discovery: Bridging the Translation Gap",
+    "summary": "As a fully funded DKU Summer Research Scholar, I built a retrospective active-learning pipeline for molecular-docking algorithm selection. The work studies how partial acquisition can produce useful selector-training data when docking runtimes differ.",
+    "question": "How can partial acquisition of docking outcomes support algorithm selection while accounting for heterogeneous runtime and downstream decision quality?",
+    "contributions": [
+      "Integrated cell-wise acquisition, low-rank matrix completion, and runtime models fitted only to previously observed training-pool runtimes.",
+      "Trained downstream selectors on completed performance matrices while reserving held-out docking outcomes for evaluation.",
+      "Compared runtime-aware acquisition with Mean-UCB using realized docking cost, per-engine query allocation, and held-out selector performance.",
+      "First-authored the paper accepted at the NeurIPS 2026 Workshop on AI for Drug Discovery."
+    ],
+    "findings": [
+      "Partial acquisition yielded decision-useful training data for docking algorithm selection.",
+      "The evaluation identified budget-dependent trade-offs between acquisition cost and downstream quality.",
+      "Matrix-reconstruction metrics did not consistently track downstream docking performance."
+    ],
+    "limitations": [
+      "The study uses retrospective active learning, with runtime models fitted only to previously observed training-pool runtimes.",
+      "Cost–quality trade-offs depend on the acquisition budget, and reconstruction quality alone does not consistently indicate selector performance."
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openreview.net/pdf?id=tSz3wBLABm"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/SeanWan514/MolAS_Active_Learning"
+      }
+    ],
+    "citation": "Sean Wan, Jiabao Brad Wang, and Mustafa Mısır. Active Learning for Molecular-Docking Algorithm Selection under Heterogeneous Runtime. NeurIPS 2026 Workshop on AI for Drug Discovery: Bridging the Translation Gap. Accepted."
+  },
+  {
+    "id": "portfolio-selection",
+    "title": "Generative-AI-Assisted Portfolio Algorithm Selection under Asset-Family Shift",
+    "shortTitle": "Portfolio Algorithm Selection",
+    "theme": "Generalizable algorithm selection under distribution shift",
+    "dates": "July 2025–March 2026",
+    "advisors": [
+      "Mustafa Mısır"
+    ],
+    "authors": [
+      "Sean Wan",
+      "Haoyuan Zheng",
+      "Henghao Jiang",
+      "Zhaoxu Lin",
+      "Siyong Luo",
+      "Mustafa Mısır"
+    ],
+    "status": "Manuscript in preparation",
+    "venue": "Planned: AAAI 2027 Workshop on Foundation Models and Generative AI for Finance (FinFM)",
+    "summary": "As a fully funded DKU–SUFE Summer Research Scholar, I developed a portfolio algorithm-selection pipeline comparing LLM-generated features, pretrained time-series embeddings, and portfolio-trained Transformer representations under distribution shift.",
+    "question": "Which representations help portfolio algorithm selectors transfer across asset families and forward in time?",
+    "contributions": [
+      "Evaluated executable LLM-generated features, pretrained time-series embeddings, and portfolio-trained Transformer representations with random-forest and multilayer-perceptron selectors.",
+      "Built selectors to choose among classical and learned portfolio optimizers.",
+      "Investigated representation transfer through centered kernel alignment (CKA), controlled fine-tuning, family-held-out evaluation, and forward-time evaluation."
+    ],
+    "findings": [
+      "In the 2025 forward test, portfolio-trained features increased mean annualized return by 12.4 percentage points over a market-feature random-forest selector."
+    ],
+    "limitations": [
+      "The 12.4-percentage-point improvement is relative to the market-feature random-forest selector in the 2025 forward test.",
+      "The manuscript is in preparation, with submission to the AAAI 2027 FinFM workshop planned."
+    ],
+    "links": [],
+    "citation": "Sean Wan, Haoyuan Zheng, Henghao Jiang, Zhaoxu Lin, Siyong Luo, and Mustafa Mısır. Generative-AI-Assisted Portfolio Algorithm Selection under Asset-Family Shift. Manuscript in preparation; planned submission to the AAAI 2027 Workshop on Foundation Models and Generative AI for Finance (FinFM)."
+  }
+]

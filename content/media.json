@@ -1,0 +1,278 @@
+{
+  "orientation-2024": {
+    "src": "/assets/photos/orientation-2024-768w.jpg",
+    "full": "/assets/photos/orientation-2024-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/orientation-2024-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/orientation-2024-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "orientation-2025": {
+    "src": "/assets/photos/orientation-2025-946w.jpg",
+    "full": "/assets/photos/orientation-2025-946w.jpg",
+    "width": 946,
+    "height": 830,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/orientation-2025-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/orientation-2025-946w.jpg",
+        "width": 946
+      }
+    ]
+  },
+  "orientation-2026": {
+    "src": "/assets/photos/orientation-2026-960w.jpg",
+    "full": "/assets/photos/orientation-2026-1600w.jpg",
+    "width": 960,
+    "height": 720,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/orientation-2026-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/orientation-2026-960w.jpg",
+        "width": 960
+      },
+      {
+        "path": "/assets/photos/orientation-2026-1600w.jpg",
+        "width": 1600
+      }
+    ]
+  },
+  "peer-yuanling": {
+    "src": "/assets/photos/peer-yuanling-960w.jpg",
+    "full": "/assets/photos/peer-yuanling-1600w.jpg",
+    "width": 960,
+    "height": 720,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/peer-yuanling-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/peer-yuanling-960w.jpg",
+        "width": 960
+      },
+      {
+        "path": "/assets/photos/peer-yuanling-1600w.jpg",
+        "width": 1600
+      }
+    ]
+  },
+  "running-relay": {
+    "src": "/assets/photos/running-relay-729w.jpg",
+    "full": "/assets/photos/running-relay-729w.jpg",
+    "width": 729,
+    "height": 729,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/running-relay-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/running-relay-729w.jpg",
+        "width": 729
+      }
+    ]
+  },
+  "running-race": {
+    "src": "/assets/photos/running-race-713w.jpg",
+    "full": "/assets/photos/running-race-713w.jpg",
+    "width": 713,
+    "height": 713,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/running-race-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/running-race-713w.jpg",
+        "width": 713
+      }
+    ]
+  },
+  "running-portrait": {
+    "src": "/assets/photos/running-portrait-886w.jpg",
+    "full": "/assets/photos/running-portrait-886w.jpg",
+    "width": 886,
+    "height": 886,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/running-portrait-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/running-portrait-886w.jpg",
+        "width": 886
+      }
+    ]
+  },
+  "running-track": {
+    "src": "/assets/photos/running-track-768w.jpg",
+    "full": "/assets/photos/running-track-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/running-track-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/running-track-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "aviation-a330": {
+    "src": "/assets/photos/aviation-a330-480w.jpg",
+    "full": "/assets/photos/aviation-a330-480w.jpg",
+    "width": 480,
+    "height": 360,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/aviation-a330-480w.jpg",
+        "width": 480
+      }
+    ]
+  },
+  "aviation-a350": {
+    "src": "/assets/photos/aviation-a350-886w.jpg",
+    "full": "/assets/photos/aviation-a350-886w.jpg",
+    "width": 886,
+    "height": 886,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/aviation-a350-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/aviation-a350-886w.jpg",
+        "width": 886
+      }
+    ]
+  },
+  "aviation-b747": {
+    "src": "/assets/photos/aviation-b747-768w.jpg",
+    "full": "/assets/photos/aviation-b747-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/aviation-b747-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/aviation-b747-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "flight-log": {
+    "src": "/assets/photos/flight-log-768w.jpg",
+    "full": "/assets/photos/flight-log-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/flight-log-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/flight-log-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "sports-friends": {
+    "src": "/assets/photos/sports-friends-838w.jpg",
+    "full": "/assets/photos/sports-friends-838w.jpg",
+    "width": 838,
+    "height": 938,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/sports-friends-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/sports-friends-838w.jpg",
+        "width": 838
+      }
+    ]
+  },
+  "dewi-home": {
+    "src": "/assets/photos/dewi-home-768w.jpg",
+    "full": "/assets/photos/dewi-home-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/dewi-home-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/dewi-home-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "dewi-walk": {
+    "src": "/assets/photos/dewi-walk-768w.jpg",
+    "full": "/assets/photos/dewi-walk-768w.jpg",
+    "width": 768,
+    "height": 1024,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/dewi-walk-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/dewi-walk-768w.jpg",
+        "width": 768
+      }
+    ]
+  },
+  "student-leader-award": {
+    "src": "/assets/photos/student-leader-award-886w.jpg",
+    "full": "/assets/photos/student-leader-award-886w.jpg",
+    "width": 886,
+    "height": 886,
+    "rotation": 0,
+    "variants": [
+      {
+        "path": "/assets/photos/student-leader-award-480w.jpg",
+        "width": 480
+      },
+      {
+        "path": "/assets/photos/student-leader-award-886w.jpg",
+        "width": 886
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "statedelta": {
+    "path": "/assets/research/statedelta.svg",
+    "alt": "Conceptual furniture assembly: separate parts become an assembled frame, with the changed attachment traced to evidence and a grounded instruction.",
+    "caption": "Conceptual assembly example illustrating how state changes, components, and attachment evidence can ground an instruction; not a dataset sample or experimental result."
+  },
+  "virel-budget": {
+    "path": "/assets/research/virel-budget.svg",
+    "alt": "An image-token grid enters a calibrated policy that chooses either a pruned token budget or dense fallback for one VLM call.",
+    "caption": "Conceptual budget selection. The illustrated token pattern is schematic; the calibrated policy chooses a pruning budget or dense fallback for a single VLM call."
+  },
+  "stableeval": {
+    "path": "/assets/research/stableeval.svg",
+    "alt": "A historical evidence window ends at prediction time; the future horizon is locked and reserved for evaluation.",
+    "caption": "Conceptual historical replay: evidence is frozen at prediction time, while future outcomes remain hidden from the agent and are used for evaluation."
+  },
+  "molecular-docking": {
+    "path": "/assets/research/molecular-docking.svg",
+    "alt": "A sparse matrix of molecular complexes and docking algorithms, with observed outcomes, unobserved outcomes, and a runtime-aware next query.",
+    "caption": "Conceptual acquisition matrix. Colored cells distinguish observed outcomes from a prospective query; the layout is illustrative and contains no measured docking values."
+  },
+  "portfolio-selection": {
+    "path": "/assets/research/portfolio-selection.svg",
+    "alt": "Three alternative representation sources feed RF or MLP selectors for portfolio algorithm selection under asset-family shift.",
+    "caption": "Conceptual comparison of alternative representations, not feature fusion. The portfolio symbols illustrate different asset families; they do not encode measured allocations or returns."
+  }
+}

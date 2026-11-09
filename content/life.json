@@ -1,0 +1,141 @@
+{
+  "intro": "A few parts of my life beyond research: running, aviation, sports, my dog Dewi, and time with the Duke and DKU communities.",
+  "sections": [
+    {
+      "id": "running",
+      "title": "Running",
+      "body": "I enjoy running and am a former member of the DKU Varsity Running team. These are a few photos from my time running and training.",
+      "photos": [
+        {
+          "id": "running-relay",
+          "caption": "Relay day with the DKU running team.",
+          "alt": "DKU runners exchanging a baton on the track."
+        },
+        {
+          "id": "running-race",
+          "caption": "Racing in DKU colors.",
+          "alt": "Sean running in a black DKU jersey with race bib A1205."
+        },
+        {
+          "id": "running-portrait",
+          "caption": "DKU Varsity Running.",
+          "alt": "Sean in his DKU Varsity Running jersey against a blue backdrop."
+        },
+        {
+          "id": "running-track",
+          "caption": "On the track at DKU.",
+          "alt": "Sean running on the DKU track with teammates beside the finish area."
+        }
+      ],
+      "facts": [
+        {
+          "label": "5K personal best",
+          "value": "19:50"
+        },
+        {
+          "label": "10K personal best",
+          "value": "44:23"
+        },
+        {
+          "label": "Half-marathon personal best",
+          "value": "1:45:30"
+        }
+      ]
+    },
+    {
+      "id": "aviation",
+      "title": "Aviation",
+      "body": "I’m an aviation fan. I keep two flight logs to record all of my flights, and my photo collection includes these cockpit visits.",
+      "photos": [
+        {
+          "id": "aviation-a330",
+          "caption": "Airbus A330-941 cockpit visit.",
+          "alt": "Sean seated in an Airbus A330-941 cockpit during a visit."
+        },
+        {
+          "id": "aviation-a350",
+          "caption": "Airbus A350-900 cockpit visit.",
+          "alt": "Sean seated in an Airbus A350-900 cockpit during a visit."
+        },
+        {
+          "id": "aviation-b747",
+          "caption": "Boeing 747 cockpit visit.",
+          "alt": "Sean seated in a Boeing 747 cockpit with his pink flight log nearby."
+        },
+        {
+          "id": "flight-log",
+          "caption": "One of my two flight logs.",
+          "alt": "An open flight log with handwritten flight details and a note from the crew."
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports with friends",
+      "body": "I love sports and enjoy playing with friends.",
+      "photos": [
+        {
+          "id": "sports-friends",
+          "caption": "Pickleball with friends.",
+          "alt": "Sean and friends holding paddles on a pickleball court."
+        }
+      ]
+    },
+    {
+      "id": "dewi",
+      "title": "Meet Dewi",
+      "body": "This is Dewi, my Shiba Inu. He is four years old as of November 2026.",
+      "photos": [
+        {
+          "id": "dewi-home",
+          "caption": "Dewi at home.",
+          "alt": "Dewi resting his front paws on the edge of the dining table."
+        },
+        {
+          "id": "dewi-walk",
+          "caption": "A walk with Dewi.",
+          "alt": "Dewi yawning while out on a walk."
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "title": "Orientation and campus life",
+      "body": "I served as an Orientation Leader across Duke and DKU programs in 2024, 2025, and 2026, helping incoming students settle into university life.",
+      "photos": [
+        {
+          "id": "orientation-2024",
+          "caption": "Orientation Leaders · 2024.",
+          "alt": "Four orientation leaders posing in front of a green 2024 DKU orientation backdrop."
+        },
+        {
+          "id": "orientation-2025",
+          "caption": "Orientation Leaders · 2025.",
+          "alt": "Orientation leaders gathered around a table, smiling for a group selfie."
+        },
+        {
+          "id": "orientation-2026",
+          "caption": "Orientation Leaders · 2026.",
+          "alt": "A group selfie with orientation leaders in a lecture room."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Education and student leadership",
+      "body": "In 2024, I took part in the PEER–U-Corp school education initiative in Yuanling County, Hunan. In April 2026, I received DKU’s Student Leader of the Year award.",
+      "photos": [
+        {
+          "id": "peer-yuanling",
+          "caption": "PEER–U-Corp · Yuanling County, Hunan · 2024.",
+          "alt": "Sean and middle-school students taking a group selfie in a school courtyard in Yuanling County."
+        },
+        {
+          "id": "student-leader-award",
+          "caption": "Student Leader of the Year, with DKU’s Dean of Student Experience · April 2026.",
+          "alt": "Sean with DKU’s Dean of Student Experience for the Student Leader of the Year award."
+        }
+      ]
+    }
+  ]
+}

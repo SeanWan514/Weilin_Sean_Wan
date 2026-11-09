@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">StableEval Arena — replaying history without revealing the future</title>
+  <desc id="desc">A conceptual historical-replay timeline separates a visible evidence window from a locked future horizon at prediction time. Predictions use only the historical evidence; future outcomes are reserved for evaluation. No plotted marks represent market data.</desc>
+  <defs>
+    <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V14" fill="none" stroke="#eadce0" stroke-width="3"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#727681" stroke-width="1.6"/></marker>
+  </defs>
+  <rect width="720" height="460" rx="20" fill="#fcf9f7"/>
+  <rect x="40" y="103" width="388" height="220" rx="16" fill="#eaf0ee"/>
+  <rect x="458" y="103" width="222" height="220" rx="16" fill="#f6ebef"/>
+  <rect x="458" y="103" width="222" height="220" rx="16" fill="url(#hatch)"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#303039">
+    <text x="233" y="66" text-anchor="middle">Evidence window</text>
+    <text x="568" y="66" text-anchor="middle">Hidden horizon</text>
+  </g>
+  <g stroke="#9ebbb6" stroke-width="2.5" fill="#fff">
+    <rect x="73" y="145" width="93" height="126" rx="8" transform="rotate(-8 119 208)"/>
+    <rect x="166" y="141" width="93" height="126" rx="8"/>
+    <rect x="271" y="145" width="93" height="126" rx="8" transform="rotate(8 317 208)"/>
+  </g>
+  <g fill="none" stroke="#759e99" stroke-width="5" stroke-linecap="round">
+    <path d="M96 176 140 170M99 191 138 185M102 225 133 220"/>
+    <path d="M186 171H239M186 186H225M186 224H233"/>
+    <path d="M291 170 337 176M290 185 329 191M284 220 329 226"/>
+  </g>
+  <g fill="#e1ede9"><circle cx="120" cy="245" r="8"/><circle cx="212" cy="244" r="8"/><circle cx="310" cy="247" r="8"/></g>
+  <path d="M443 93V355" fill="none" stroke="#b44d6e" stroke-width="4" stroke-dasharray="7 7"/>
+  <circle cx="443" cy="342" r="9" fill="#b44d6e" stroke="#fcf9f7" stroke-width="4"/>
+  <path d="M41 342H678" stroke="#727681" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M544 198V177C544 143 591 143 591 177V198" fill="none" stroke="#b37c90" stroke-width="8" stroke-linecap="round"/>
+  <rect x="530" y="193" width="76" height="65" rx="13" fill="#fffafc" stroke="#b37c90" stroke-width="3"/>
+  <circle cx="568" cy="220" r="7" fill="#b37c90"/><path d="M568 225V238" stroke="#b37c90" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#615661">
+    <text x="439" y="385" text-anchor="middle">Prediction time</text>
+    <text x="572" y="294" text-anchor="middle">Future withheld</text>
+  </g>
+  <path d="M220 395C202 424 137 427 117 397M117 397V418M117 397H139" fill="none" stroke="#43797c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="244" y="424" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#43797c">Replay · predict · evaluate</text>
+</svg>

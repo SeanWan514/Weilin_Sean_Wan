@@ -1,0 +1,481 @@
+{
+  "industry": [
+    {
+      "id": "liberata",
+      "organization": "Liberata",
+      "role": "Machine Learning Engineer & Telemetry Team Lead",
+      "dates": "May 2026–Present",
+      "location": "Kunshan, China · Remote",
+      "url": "https://liberata.info/",
+      "summary": "Building simulations and behavioral measurement systems for a Duke-funded startup focused on research and peer-review workflows.",
+      "contributions": [
+        "Extended a Python multi-agent simulation of peer-review markets with continuous and discrete effort models, reviewer-dependent pricing, and nonlinear review rewards. Added multi-seed experiments and agent-level diagnostics to compare reinforcement-learning policies with heuristic and stochastic baselines.",
+        "Designed telemetry across nine platform workflows, defining 142 event types to measure task completion, abandonment, latency, and interaction friction and distinguish usability problems from technical failures.",
+        "Implemented TypeScript tracking helpers, structured event validation, and sensitive-data filtering for consistent behavioral analysis.",
+        "Led telemetry engineering from measurement specification through implementation and technical handoff, coordinating instrumentation contracts, integration guidance, and staging QA with platform engineers."
+      ]
+    },
+    {
+      "id": "lark",
+      "organization": "Lark (Feishu), ByteDance",
+      "role": "Machine Learning Intern",
+      "dates": "January–April 2025",
+      "location": "Kunshan, China · Remote",
+      "url": "",
+      "summary": "Analyzed adoption and engagement signals for Lark’s Indonesia localization project.",
+      "contributions": [
+        "Analyzed user behavior, adoption channels, and engagement data to understand how people adopted collaboration tools in a new market.",
+        "Organized user interviews, community feedback, and creator-channel data into behavioral signals for user segmentation and engagement-barrier analysis.",
+        "Developed a data-informed process for evaluating creator and community acquisition channels, tracking conversion outcomes and identifying promising signals for localized product adoption."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "liberata-pm",
+      "organization": "Liberata",
+      "role": "Product Manager, Product Team",
+      "dates": "July 2025–May 2026",
+      "location": "Durham, North Carolina, USA & Kunshan, China · Remote",
+      "url": "https://liberata.info/",
+      "summary": "Developed outreach and fundraising plans for a platform exploring open access and incentives for research quality.",
+      "contributions": [
+        "Created outreach and fundraising masterplans and helped establish approximately a dozen successful external connections.",
+        "Presented “Open Access Platform with Incentivized Quality Controls” at the 2026 ICFSS Conference in March 2026."
+      ]
+    },
+    {
+      "id": "covestro",
+      "organization": "Covestro (China) Co., Ltd.",
+      "role": "Product Manager",
+      "dates": "September 2024–January 2025",
+      "location": "Kunshan, China · Remote",
+      "url": "",
+      "summary": "Evaluated medical-device recycling feasibility across China, Singapore, and the United States.",
+      "contributions": [
+        "Organized regulatory, market, and infrastructure evidence into a structured data-processing and comparison workflow.",
+        "Compared policy requirements, operational constraints, and market readiness to assess implementation feasibility and risks.",
+        "Developed a rule-based ranking and decision-support framework for country-level recommendations."
+      ]
+    },
+    {
+      "id": "climate-app",
+      "organization": "The Climate App",
+      "role": "Product Manager",
+      "dates": "August–December 2024",
+      "location": "Kunshan, China · Remote",
+      "url": "",
+      "summary": "Supported growth and product evaluation for a climate-focused application through user and community data.",
+      "contributions": [
+        "Processed user-interaction, outreach, and community-engagement data to analyze acquisition, activation, and retention patterns.",
+        "Developed user segmentation and channel-ranking logic to identify promising creators, ambassadors, and early users.",
+        "Built a process for monitoring outreach performance, community growth, and user feedback to inform product experiments and adoption strategy."
+      ]
+    }
+  ],
+  "community": [
+    {
+      "id": "student-leaders-board",
+      "organization": "Duke Kunshan University Student Leaders Board",
+      "role": "Co-Chair",
+      "dates": "January 2026–Present · Term ends December 2026",
+      "location": "Kunshan, China",
+      "url": "https://campus-life.dukekunshan.edu.cn/student-leader-board/",
+      "summary": "Representing students through institutional advocacy, feedback mechanisms, and campus programming.",
+      "contributions": [
+        "Led advocacy on research access, summer housing, and academic integrity, and established channels for student feedback.",
+        "Represented DKU in inter-university exchanges.",
+        "Coordinated logistics, scheduling, and feedback collection for campus events with more than 300 participants."
+      ]
+    },
+    {
+      "id": "orientation",
+      "organization": "Duke University & Duke Kunshan University",
+      "role": "Orientation Leader",
+      "dates": "June–August 2024, 2025, and 2026",
+      "location": "Durham, North Carolina, USA & Kunshan, China",
+      "url": "",
+      "summary": "Supported more than 500 incoming students across Duke and DKU orientation programs over three years.",
+      "contributions": [
+        "Facilitated onboarding, campus tours, and community-building activities to help students transition into university life.",
+        "Coordinated orientation logistics across multiple program cycles."
+      ]
+    },
+    {
+      "id": "peer",
+      "organization": "DKU U-Corp–PEER Sustainability Education Initiative",
+      "role": "Project Lead",
+      "dates": "March–September 2024",
+      "location": "Duke Kunshan University & Yuanling County, Hunan, China",
+      "url": "",
+      "summary": "Led a sustainability education initiative for 153 rural middle-school students through DKU’s Innovation and Entrepreneurship Office and PEER.",
+      "contributions": [
+        "Led delivery of sustainability education activities for rural middle-school students.",
+        "Presented project outcomes at the 2024 Duke International Forum."
+      ]
+    },
+    {
+      "id": "consulting-club",
+      "organization": "Duke Kunshan University Consulting Club",
+      "role": "Co-Founder, VP of Growth & Strategy, and Treasurer",
+      "dates": "August 2024–May 2025",
+      "location": "Kunshan, China",
+      "url": "",
+      "summary": "Co-founded the club and led membership growth, treasury operations, and student consulting projects.",
+      "contributions": [
+        "Drove 40% membership growth and recruited 113 new members.",
+        "Guided market-research and FinTech report projects."
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "role": "Teaching Assistant",
+      "course": "DKU STATS 302 / COMPSCI 309 · Principles of Machine Learning",
+      "term": "Fall 2026"
+    },
+    {
+      "role": "Peer Tutor",
+      "course": "DKU STATS 302 / COMPSCI 309 · Principles of Machine Learning",
+      "term": "Fall 2026–Spring 2027"
+    },
+    {
+      "role": "Teaching Assistant",
+      "course": "DKU COMPSCI 203 · Discrete Mathematics for Computer Science",
+      "term": "Spring 2026"
+    },
+    {
+      "role": "Teaching Assistant",
+      "course": "DKU COMPSCI 201 · Introduction to Programming and Data Structures",
+      "term": "Spring 2026"
+    },
+    {
+      "role": "Teaching Assistant",
+      "course": "DKU MATH 201 · Multivariable Calculus",
+      "term": "Spring 2026"
+    },
+    {
+      "role": "Peer Tutor",
+      "course": "DKU GCHINA 101 · China in the World",
+      "term": "Spring 2025"
+    }
+  ],
+  "awards": [
+    {
+      "name": "National Encouragement Scholarship (China)",
+      "date": "October 2026"
+    },
+    {
+      "name": "Dean’s List with Distinction, Duke Kunshan University",
+      "date": "Spring 2026"
+    },
+    {
+      "name": "Student Leader of the Year, Duke Kunshan University · Community selected",
+      "date": "April 2026"
+    },
+    {
+      "name": "Summer Research Scholar, Duke Kunshan University · Fully funded",
+      "date": "April 2026"
+    },
+    {
+      "name": "Dean’s List, Duke Kunshan University",
+      "date": "Fall 2025"
+    },
+    {
+      "name": "DKU–SUFE Research Scholar · Fully funded",
+      "date": "June 2025"
+    },
+    {
+      "name": "Outstanding Peer Tutor Award, Duke Kunshan University · Community selected",
+      "date": "May 2025"
+    },
+    {
+      "name": "Summer Research Scholar, Duke Kunshan University · Fully funded",
+      "date": "April 2025"
+    },
+    {
+      "name": "Dean’s List with Distinction, Duke Kunshan University",
+      "date": "Fall 2024"
+    },
+    {
+      "name": "Entrance Scholarship, Duke Kunshan University · 25% tuition",
+      "date": "August 2023–May 2027"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Duke University",
+      "degree": "B.S. in Interdisciplinary Studies",
+      "dates": "Dual-degree program · August 2023–Expected May 2027",
+      "details": [
+        "Dual-degree undergraduate program with Duke Kunshan University.",
+        "Exchange semester in Durham, North Carolina: August–December 2025."
+      ]
+    },
+    {
+      "institution": "Duke Kunshan University",
+      "degree": "B.S. in Applied Mathematics and Computational Sciences · Computer Science Track",
+      "dates": "August 2023–Expected May 2027",
+      "details": [
+        "Cumulative GPA: 3.810 / 4.000.",
+        "Relevant coursework includes artificial intelligence, machine learning, algorithms, databases, data science, and probability and statistics."
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "October 2026",
+      "title": "National Encouragement Scholarship",
+      "summary": "Received the National Encouragement Scholarship (China).",
+      "href": "/#awards"
+    },
+    {
+      "date": "May 2026",
+      "title": "Machine learning and telemetry at Liberata",
+      "summary": "Began my role as Machine Learning Engineer and Telemetry Team Lead, following my product-management work at Liberata.",
+      "href": "/experience/#liberata"
+    },
+    {
+      "date": "April 2026",
+      "title": "DKU Student Leader of the Year",
+      "summary": "Received Duke Kunshan University’s community-selected Student Leader of the Year award.",
+      "href": "/community/#student-leaders-board"
+    },
+    {
+      "date": "April 2026",
+      "title": "Fully funded Summer Research Scholar",
+      "summary": "Received a fully funded summer research scholarship at Duke Kunshan University.",
+      "href": "/research/#molecular-docking"
+    },
+    {
+      "date": "March 2026",
+      "title": "Presented at ICFSS 2026",
+      "summary": "Presented “Open Access Platform with Incentivized Quality Controls.”",
+      "href": "/experience/#liberata-pm"
+    },
+    {
+      "date": "January 2026",
+      "title": "Co-Chair of the DKU Student Leaders Board",
+      "summary": "Began serving as co-chair for the 2026 term.",
+      "href": "/community/#student-leaders-board"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "May 2027 · Expected",
+      "sort": "2027-05-01",
+      "category": "Education",
+      "title": "Expected graduation from Duke and DKU",
+      "summary": "Completing the dual-degree undergraduate program.",
+      "href": "/#education"
+    },
+    {
+      "date": "October 2026",
+      "sort": "2026-10-01",
+      "category": "Award",
+      "title": "National Encouragement Scholarship",
+      "summary": "Received the National Encouragement Scholarship (China).",
+      "href": "/#awards"
+    },
+    {
+      "date": "Fall 2026",
+      "sort": "2026-09-01",
+      "category": "Teaching",
+      "title": "Machine learning TA and peer tutor",
+      "summary": "Teaching assistant for Fall 2026 and peer tutor for Fall 2026–Spring 2027 in DKU Principles of Machine Learning.",
+      "href": "/community/#teaching"
+    },
+    {
+      "date": "June–August 2026",
+      "sort": "2026-06-01",
+      "category": "Community",
+      "title": "Third year of orientation leadership",
+      "summary": "Continued supporting incoming students through Duke and DKU orientation programs.",
+      "href": "/community/#orientation"
+    },
+    {
+      "date": "June 2026–Present",
+      "sort": "2026-06-01",
+      "category": "Research",
+      "title": "StateDelta",
+      "summary": "Undergraduate Signature Work on grounded multimodal learning and reasoning with Kaizhu Huang.",
+      "href": "/research/#statedelta"
+    },
+    {
+      "date": "May 2026–Present",
+      "sort": "2026-05-01",
+      "category": "Industry",
+      "title": "Liberata · Machine Learning Engineer & Telemetry Team Lead",
+      "summary": "Began work on peer-review-market simulations and platform telemetry.",
+      "href": "/experience/#liberata"
+    },
+    {
+      "date": "May–August 2026",
+      "sort": "2026-05-01",
+      "category": "Research",
+      "title": "ViRel-Budget",
+      "summary": "Research on reliable and efficient vision-language inference with Luyao Zhang.",
+      "href": "/research/#virel-budget"
+    },
+    {
+      "date": "April–July 2026",
+      "sort": "2026-04-01",
+      "category": "Research",
+      "title": "StableEval Arena",
+      "summary": "Research on reliable evaluation of agentic AI systems with Luyao Zhang and Dongping Liu.",
+      "href": "/research/#stableeval"
+    },
+    {
+      "date": "April 2026",
+      "sort": "2026-04-01",
+      "category": "Award",
+      "title": "DKU Student Leader of the Year",
+      "summary": "Community-selected recognition for student leadership.",
+      "href": "/community/#student-leaders-board"
+    },
+    {
+      "date": "March–August 2026",
+      "sort": "2026-03-01",
+      "category": "Research",
+      "title": "Molecular-docking algorithm selection",
+      "summary": "Fully funded summer research on cost-efficient learning for algorithm selection with Mustafa Mısır.",
+      "href": "/research/#molecular-docking"
+    },
+    {
+      "date": "March 2026",
+      "sort": "2026-03-01",
+      "category": "Talk",
+      "title": "ICFSS 2026 presentation",
+      "summary": "Presented “Open Access Platform with Incentivized Quality Controls.”",
+      "href": "/experience/#liberata-pm"
+    },
+    {
+      "date": "January 2026–Present",
+      "sort": "2026-01-01",
+      "category": "Community",
+      "title": "DKU Student Leaders Board Co-Chair",
+      "summary": "Student advocacy and campus leadership for the term ending December 2026.",
+      "href": "/community/#student-leaders-board"
+    },
+    {
+      "date": "Spring 2026",
+      "sort": "2026-01-01",
+      "category": "Teaching",
+      "title": "Teaching assistant in computer science and mathematics",
+      "summary": "Supported Discrete Mathematics, Introduction to Programming and Data Structures, and Multivariable Calculus at DKU.",
+      "href": "/community/#teaching"
+    },
+    {
+      "date": "August–December 2025",
+      "sort": "2025-08-01",
+      "category": "Education",
+      "title": "Exchange semester at Duke University",
+      "summary": "Studied in Durham, North Carolina, as part of the Duke/DKU dual-degree program.",
+      "href": "/#education"
+    },
+    {
+      "date": "July 2025–May 2026",
+      "sort": "2025-07-01",
+      "category": "Project",
+      "title": "Liberata · Product Manager",
+      "summary": "Developed outreach and fundraising masterplans and external connections.",
+      "href": "/experience/#liberata-pm"
+    },
+    {
+      "date": "July 2025–March 2026",
+      "sort": "2025-07-01",
+      "category": "Research",
+      "title": "Generalizable portfolio algorithm selection",
+      "summary": "DKU–SUFE research on algorithm selection under distribution shift with Mustafa Mısır.",
+      "href": "/research/#portfolio-selection"
+    },
+    {
+      "date": "June–August 2025",
+      "sort": "2025-06-01",
+      "category": "Community",
+      "title": "Second year of orientation leadership",
+      "summary": "Supported onboarding, campus tours, and community-building for incoming students.",
+      "href": "/community/#orientation"
+    },
+    {
+      "date": "May 2025",
+      "sort": "2025-05-01",
+      "category": "Award",
+      "title": "Outstanding Peer Tutor Award",
+      "summary": "Received DKU’s community-selected recognition for peer tutoring.",
+      "href": "/community/#teaching"
+    },
+    {
+      "date": "January–April 2025",
+      "sort": "2025-01-01",
+      "category": "Industry",
+      "title": "Lark · Machine Learning Intern",
+      "summary": "Analyzed user adoption and engagement for Indonesia localization.",
+      "href": "/experience/#lark"
+    },
+    {
+      "date": "Spring 2025",
+      "sort": "2025-01-01",
+      "category": "Teaching",
+      "title": "China in the World peer tutor",
+      "summary": "Peer tutor for DKU GCHINA 101.",
+      "href": "/community/#teaching"
+    },
+    {
+      "date": "2024",
+      "sort": "2024-11-01",
+      "category": "Talk",
+      "title": "Duke International Forum",
+      "summary": "Presented outcomes of the U-Corp–PEER sustainability education initiative.",
+      "href": "/community/#peer"
+    },
+    {
+      "date": "September 2024–January 2025",
+      "sort": "2024-09-01",
+      "category": "Project",
+      "title": "Covestro · Product Manager",
+      "summary": "Evaluated medical-device recycling feasibility across three countries.",
+      "href": "/experience/#covestro"
+    },
+    {
+      "date": "August 2024–May 2025",
+      "sort": "2024-08-01",
+      "category": "Community",
+      "title": "Co-founded the DKU Consulting Club",
+      "summary": "Led growth strategy and treasury operations and guided student research projects.",
+      "href": "/community/#consulting-club"
+    },
+    {
+      "date": "August–December 2024",
+      "sort": "2024-08-01",
+      "category": "Project",
+      "title": "The Climate App · Product Manager",
+      "summary": "Supported user-growth analysis, community outreach, and product evaluation.",
+      "href": "/experience/#climate-app"
+    },
+    {
+      "date": "June–August 2024",
+      "sort": "2024-06-01",
+      "category": "Community",
+      "title": "Began serving as an Orientation Leader",
+      "summary": "Helped incoming students transition into university life through onboarding and community activities.",
+      "href": "/community/#orientation"
+    },
+    {
+      "date": "March–September 2024",
+      "sort": "2024-03-01",
+      "category": "Community",
+      "title": "U-Corp–PEER sustainability education",
+      "summary": "Led an initiative for 153 rural middle-school students in Huaihua, Hunan.",
+      "href": "/community/#peer"
+    },
+    {
+      "date": "August 2023",
+      "sort": "2023-08-01",
+      "category": "Education",
+      "title": "Began the Duke/DKU dual-degree program",
+      "summary": "Entered Duke Kunshan University with a scholarship covering 25% of tuition.",
+      "href": "/#education"
+    }
+  ]
+}
